@@ -1,0 +1,18 @@
+<!--pages/TabBar/my/my.wxml-->
+<!-- <cu-custom bgColor="bg-white" >
+    <view slot="backText"></view>
+    <view slot="content" class="navTitle">个人中心</view>
+</cu-custom> -->
+<!-- <view class="container">
+    <video src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" controls="false" autoplay="true" ></video>
+</view> -->
+<view class="container" style='width:100%;min-height:100%;background-image:url("/images/dog.jpg");background-size:100% 100%;'>
+    <view>
+        <text class="dog">DOG</text>
+        <text class="time">让时间用的更有价值</text>
+    </view>
+    <button class="wechat" hover-class="wechat_dog" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        <image src="/images/wechat.png" style="width:50rpx; height:50rpx;display: inline-block;vertical-align: middle;"></image>
+        <text>微信授权登录</text>
+    </button>
+</view>

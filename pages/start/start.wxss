@@ -1,0 +1,36 @@
+/* pages/TabBar/my/my.wxss */
+page{
+
+  height:100%
+  
+  }
+  .dog{
+    font-size: 120rpx;
+    color: white;
+    display: block;
+  }
+  .time{
+    color: white;
+    font-size: 30rpx;
+    display: block;
+  }
+  .wechat{
+    width: 400rpx;
+    height: 100rpx;
+    background-color: #aaaaaa;
+    margin: 0px auto;
+    border-radius: 30rpx;
+    text-align: center;
+    line-height: 60rpx;
+  }
+  .wechat text{
+    font-size: 30rpx;
+    text-align: center;
+    /* display: inline-block;
+    vertical-align: middle; */
+    color: #fff;
+  }
+  .wechat_dog{
+    background-color: #00ffcf;
+    color:black;
+  }
